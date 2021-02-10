@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(207, 202, 202);
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+    color: #a5960e;
+}
+
+h6 {
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 22px;
+    color: #ff15b9;
+}
+
+.form {
+    width: 440px;
+    height: 610px;
+    margin: 15px 430px;
+    padding: 50px;
+    font-size: 24px;
+    border-radius: 9px;
+}
+
+.form , input , label , .name , .phone , .email , .transaction {
+    background-color: white;
+}
+
+label {
+    color: green;
+}
+
+input {
+    padding: 14px;
+    width: 400px;
+    border: none;
+    font-size: 18px;
+    font-family: lato;
+}
+
+input:focus {
+    outline: none;
+}
+
+.submit {
+    border: 2px solid grey;
+    border-radius: 6px;
+    background-color: rgb(146, 141, 141);
+    font-weight: 350;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 10px 10px;
+}
+
+.submit:hover {
+    background-color: rgb(116, 110, 110);
+}
+
+select {
+    background-color: white;
+    border: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+option {
+    background-color: white;
+}
+
+.phone {
+    position: relative;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{ 
+    -webkit-appearance: none;
+}
+
+@media only screen and (max-width: 1334px){
+    .header {
+        width: 1334px;
+    }
+
+    form {
+        width: 1334px;
+    }
+}

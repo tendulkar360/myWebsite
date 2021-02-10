@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in form</title>
+    <link rel="stylesheet" href="enroll.css">
+</head>
+
+<body>
+    <div class="header">
+    <h1>!!! Wecome to SSC Course !!!</h1>
+    <h6>Buy your course by filling up the form given below</h6>
+</div>
+    <form action="thankyou.html" method="post">
+    <div class="form">
+        <div class="name">
+            <label for="name">Full Name:</label><br>
+            <input type="text" name="name" placeholder="Enter your full name..." required autocomplete="off"><hr><br><br>
+        </div>
+        <div class="email">
+            <label for="email">Email Address:</label><br>
+            <input type="text" name="email" placeholder="Enter your email address..." autocomplete="off"><hr><br><br>
+        </div>
+        <div class="phone">
+            <label for="contactN">Contact Numner:</label><br>
+            <select name="phone" id="phone">
+                <option value="+880">+880</option>
+                <option value="+93">+93</option>
+                <option value="+973">+973</option>
+                <option value="+375">+375</option>
+                <option value="+213">+213</option>
+            </select>
+            <input type="number" placeholder="Enter your phone number..." autocomplete="off" class="phone"><hr>
+        </div><br><br>
+        <div class="transaction">
+            <label for="transaction">Transaction ID:</label><br>
+            <input type="text" name="transaction" placeholder="Enter your transaction id..." required autocomplete="off"><hr><br><br>
+            <input type="submit" value="Submit" class="submit">
+        </div>
+    </div>
+</form>
+</body>
+
+</html>

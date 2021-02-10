@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    width: 1349px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin: 0 300px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    width: 100%;
+}
+
+.menu li {
+    margin-top: 12px;
+}
+
+.menu li a {
+    position: relative;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 20px;
+    width: 100%;
+}
+
+.menu li a:hover {
+    background-color: grey;
+}
+
+.submenu {
+    position: absolute;
+    background-color: black;
+    flex-direction: column;
+    margin: 10px 55px;
+    border-radius: 7px;
+    width: 140px;
+    height: 230px;
+    display: none;
+}
+
+.submenu li {
+    margin-top: 12px;
+}
+
+.active.active {
+    background-color: rgb(141, 138, 138);
+}
+
+.coursesC:hover .submenu {
+    display: block;
+}
+
+.first-left h1 {
+    text-align: center;
+    font-size: 45px;
+    margin: 10px 0px;
+    color: rgb(197, 160, 231);
+}
+
+.image {
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    margin: 0 25px;
+}
+
+.two {
+    margin: 0 265px;
+}
+
+.three {
+    margin: 200px 25px;
+}
+
+.four {
+    margin: 193px 265px;
+}
+
+.image:hover {
+    height: 265px;
+    width: 215px;
+}
+
+.first-right {
+    margin-left: 515px;
+    margin-top: 70px;
+    background-color: rgb(238, 219, 195);
+    border-radius: 12px;
+}
+
+.first-right p {
+    padding: 50px;
+    font-size: 18px;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+footer {
+    height: 920px;
+    margin-bottom: 0px;
+    background-color: rgb(231, 221, 221);
+}
+
+footer h1 {
+    display: inline-block;
+    margin: 25px 591px;
+    font-size: 35px;
+}
+
+footer h3 {
+    text-align: center;
+    margin-top: 130px;
+    color: rgb(59, 58, 58);
+}
+
+.contactForm input {
+    width: 550px;
+    height: 45px;
+    font-size: 18px;
+}
+
+textarea {
+    width: 550px;
+    height: 150px;
+    resize: vertical;
+    font-size: 18px;
+    font-family: lato;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.contactForm input , textarea {
+    margin: 10px 0;
+    padding: 8px 12px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contactForm {
+    margin: 0px 300px;
+}
+
+.fname , .lname , .email , .subject {
+    margin-top: 20px;
+}
+
+input[type=submit] {
+    color: white;
+    background-color: grey;
+    font-size: 24px;
+    margin: 30px 90px;
+    font-weight: 100;
+    border-radius: 90px;
+    width: 350px;
+}
+
+.submit:hover {
+    background-color: black;
+}
+
+.submit:focus {
+    outline: none;
+}
+
+.contactForm input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 1334px){
+    header {
+        width: 1349px;
+    }
+
+    footer {      
+        width: 1349px;
+        height: 888px;
+    }
+}
+
+@media only screen and (max-width: 344px){
+    header {
+        width: 1313px;
+    }
+
+    footer {
+        width: 1300px;
+        height: 927px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    header {
+        width: 1347px;
+    }
+
+    footer {
+        width: 1347px;
+        height: 927px;
+    }
+}
+
+
+@media only screen and (max-width: 411px){
+    header {
+        width: 1346px;
+    }
+    nav {
+        width: 1344px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    header {
+        width: 1346px;
+    }
+}
